@@ -1,4 +1,6 @@
-import Navbar from "./components/Navbar"
+import ExtensionContainer from "./components/ExtensionContainer";
+import FilterBtn from "./components/FilterBtn";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
@@ -6,6 +8,8 @@ const App = () => {
       <header>
         <Navbar />
       </header>
+      <FilterBtn />
+      <ExtensionContainer />
     </main>
   )
 }
